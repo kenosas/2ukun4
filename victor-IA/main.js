@@ -9,12 +9,25 @@ const caixaresultado1 = document.querySelector(".caixa-principal");
 const Perguntas = [
 
    {
-     enunciado: "qual o esporte mais conhecido no mundo?   ";
+     enunciado: ;
      alternativas [
-        "Sim"
-        "O esporte mais conhecido no mundo é o futebol"
+        
      ]
    }
 
-]
+];
 
+let atual = 0
+let perguntaatual;
+function mostraPerguntas(){
+perguntaatual = perguntas [atual];
+caixaPerguntas. textContent = perguntas[0].enunciado;
+} 
+
+function mostraPerguntas();
+ if (atual => perguntas.legth){
+ mostraResultados();
+ return;
+
+ }
+ 
